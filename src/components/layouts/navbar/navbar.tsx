@@ -28,7 +28,7 @@ export function Navbar() {
         </Link> */}
         <Link href="/" className="text-lg font-bold p-4">
           <div className="text-4xl font-bold text-dark-blue">Hampton</div>
-          <span className=" text-sm text-gray-500">Health Care Solution</span>
+          <span className=" text-sm font-medium text-gray-400">Health Care Solution</span>
         </Link>
 
         {/* Desktop Navigation */}

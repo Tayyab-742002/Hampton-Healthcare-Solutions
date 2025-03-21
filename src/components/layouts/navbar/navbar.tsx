@@ -18,13 +18,17 @@ export function Navbar() {
     <nav className="sticky top-0 z-99 w-full border-b bg-background/95 backdrop-blur">
       <div className="container flex h-16 items-center justify-between px-4">
         {/* Logo */}
-        <Link href="/" className="text-lg font-bold">
+        {/* <Link href="/" className="text-lg font-bold">
           <Image
             src="/logo.png"
             alt="Carecor Health Services"
             width={200}
             height={200}
           />
+        </Link> */}
+        <Link href="/" className="text-lg font-bold p-4">
+          <div className="text-4xl font-bold text-dark-blue">Hampton</div>
+          <span className=" text-sm text-gray-500">Health Care Solution</span>
         </Link>
 
         {/* Desktop Navigation */}

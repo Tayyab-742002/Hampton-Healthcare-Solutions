@@ -18,7 +18,7 @@ export function Footer() {
               // loading="lazy"
             />
           </Link> */}
-          <Link href="/" className="bg-white p-4 mb-8 -translate-y-1/2">
+          {/* <Link href="/" className="bg-white p-4 mb-8 -translate-y-1/2">
             <Image
               src="/logo.png"
               alt="Carecor Health Services"
@@ -26,6 +26,10 @@ export function Footer() {
               height={200}
               className="w-56 sm:w-64 md:w-52 lg:w-50"
             />
+          </Link> */}
+          <Link href="/" className="text-lg font-bold p-4">
+            <div className="text-4xl font-bold text-white">Hampton</div>
+            <span className=" text-sm text-gray-500">Health Care Solution</span>
           </Link>
           <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 lg:justify-items-center">
             {/* Contact Column */}

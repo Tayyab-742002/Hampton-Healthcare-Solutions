@@ -3,7 +3,7 @@
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useEffect, useState } from "react";
 
-// AnimatedCounter component that animates from 0 to the target value
+
 function AnimatedCounter({
   target,
   duration = 2,
@@ -51,7 +51,7 @@ function AnimatedCounter({
   );
 }
 
-// CounterSection component with responsive grid
+
 export default function CounterSection() {
   return (
     <div className="bg-[#f8f9fa] py-5 text-center flex justify-center">

@@ -2,7 +2,7 @@
 import Slider from "react-slick";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-// Custom arrow for the next (right) button
+
 function NextArrow(props: any) {
   const { onClick } = props;
   return (
@@ -18,7 +18,7 @@ function NextArrow(props: any) {
   );
 }
 
-// Custom arrow for the previous (left) button
+
 function PrevArrow(props: any) {
   const { onClick } = props;
   return (
@@ -34,29 +34,29 @@ function PrevArrow(props: any) {
 }
 
 export default function DifferentSection() {
-  // Slider settings for react-slick
+
   const settings = {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 4, // 4 slides on large screens
+    slidesToShow: 4,
     slidesToScroll: 1,
     arrows: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
       {
-        // screens < 1024px (tablet)
+
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2, // 2 slides on tablets
+          slidesToShow: 2,
         },
       },
       {
-        // screens < 640px (mobile)
+
         breakpoint: 640,
         settings: {
-          slidesToShow: 1, // 1 slide on mobile
+          slidesToShow: 1,
         },
       },
     ],
@@ -72,9 +72,9 @@ export default function DifferentSection() {
           What Makes Us Different
         </h2>
 
-        {/* Slick Slider */}
+
         <Slider {...settings}>
-          {/* Slide 1 */}
+
           <div className="col px-2">
             <Image
               src="https://www.carecor.com/wp-content/uploads/2020/09/clock.svg"
@@ -88,7 +88,7 @@ export default function DifferentSection() {
             </div>
           </div>
 
-          {/* Slide 2 */}
+
           <div className="col px-2">
             <Image
               src="https://www.carecor.com/wp-content/uploads/2020/09/heart-in-shield.svg"
@@ -100,7 +100,7 @@ export default function DifferentSection() {
             <div>Consistency and quality care standards.</div>
           </div>
 
-          {/* Slide 3 */}
+
           <div className="col px-2">
             <Image
               src="https://www.carecor.com/wp-content/uploads/2020/09/adding-to-team.svg"
@@ -115,7 +115,7 @@ export default function DifferentSection() {
             </div>
           </div>
 
-          {/* Slide 4 */}
+   
           <div className="col px-2">
             <Image
               src="https://www.carecor.com/wp-content/uploads/2020/09/directing-to-cross.svg"

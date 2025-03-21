@@ -27,7 +27,7 @@ export function Navbar() {
           />
         </Link> */}
         <Link href="/" className="text-lg font-bold p-4">
-          <div className="text-4xl font-bold text-dark-blue">Hampton</div>
+          <div className="text-2xl font-bold text-dark-blue">Hampton</div>
           <span className=" text-sm font-medium text-gray-400">Health Care Solution</span>
         </Link>
 
